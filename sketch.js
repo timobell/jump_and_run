@@ -15,6 +15,7 @@ function draw() {
 	lol.y = camera.y - windowHeight/2+70
 }
 
+// Das wird cool
 function windowResized() {
 	resizeCanvas(windowWidth, windowHeight);
 	camera.x = ball.x;
