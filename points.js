@@ -1,4 +1,4 @@
-var entfernung = 950;
+var entfernung = 500;
 var punktzahl = 0;
 
 function points() {
