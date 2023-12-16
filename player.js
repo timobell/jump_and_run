@@ -1,11 +1,12 @@
 function player() {
-    ball = new Sprite(950, 300)
+    ball = new Sprite(950, 300);
 	ball.diameter = 50;
-	ball.color = "black";
+	ball.color = "grey";
     //ball.bounciness = 0.8;
 	ball.drag = 10;
 	ball.mass = 100;
 	ball.rotationLock = true;
+    
 }
 function mycontroller() {
     if (kb.presses('space')) {

@@ -8,11 +8,14 @@ function setup() {
 }
 
 function draw() {
-	background('gray');
+	background('lightblue');
+	//noStroke(); // macht die außen linien weg
 	mycontroller();
 	cam();
-	lol.x = ball.x + windowWidth/2-70;
-	lol.y = camera.y - windowHeight/2+70
+	points();
+
+	menu.x = ball.x + windowWidth/2-70;
+	menu.y = camera.y - windowHeight/2+70
 }
 
 function windowResized() {
